@@ -100,7 +100,7 @@ public class RangeHeartActivity extends AppCompatActivity {
         });
 
         for(int i = 0; i < count; i++){
-            series.appendData(new DataPoint(times.get(i), rates.get(i)), true, 50);
+            series.appendData(new DataPoint(times.get(i), rates.get(i)), true, 200);
         }
         graph.addSeries(series);
         // set date label formatter
